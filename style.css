@@ -64,7 +64,24 @@ body{
 .img-card img{
     height: 25rem;
     width: 65%;
-    margin-left: 3rem;
+    margin-left: 6rem;
+}
+.carousel-indicators{
+    margin-top: 4rem;
+}
+.cindi{
+    
+    margin-bottom: -1.5rem !important;
+    margin-left: 1rem !important;
+
+}
+.cindi button{
+    color: black;
+    border: 1px solid gray !important;
+    background-color: black;
+}
+.cindi button:active{
+    background-color: black;
 }
 .content{
     margin:3rem auto;
@@ -161,7 +178,31 @@ h2 span{
     
 
 }
-@media(max-width:480px){
+@media(max-width:1024px) {
+    .logo{
+        margin-left: 1rem;
+    }
+    .service{
+        display: flex;
+        margin-left: 1.5rem;
+    }
+    .service  li{
+        margin: 0 0.8rem;
+    }
+    .service li a{
+        font-size: 1rem;
+    }
+    .btn{
+        margin: 0 0rem 0 1.5rem;
+    }
+    .card-feature img{
+        height: 12rem;
+        width: 12rem;
+        margin: 2rem 3rem 0 2.8rem;
+        align-items: center;
+    }
+}
+/* @media(max-width:768px) {
     #top{
         width: 100%;
         height: auto;
@@ -183,6 +224,67 @@ h2 span{
         flex-direction: column;
        }
        .content{
+        margin:auto;
+        text-align: center;
+    }
+    
+    .content p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        text-align: start;
+        margin-right: 1px;
+    }
+    .content .try-btn{
+        width: 80%;
+        margin: auto !important;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .card-feature{
+        flex-direction: column;
+        width: 85%;
+    }
+    .card-feature img{
+        height: 15rem;
+        width: 15rem;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 11rem;
+    }
+    .card-feature h3{
+        margin: 3rem;
+        text-align: justify;
+    }
+    
+
+} */
+@media(max-width:480px){
+    #top{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .logo{
+        margin-left: 1rem;
+        margin-top: -9px !important;
+    }
+    .navbar-toggler{
+        padding-right: 1rem;
+    }
+    .cards{
+        height: auto;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+       }
+       .cards img{
+        margin:3rem
+       }
+       .content{
         margin:3rem ;
         text-align: center;
     }
@@ -193,6 +295,7 @@ h2 span{
         letter-spacing: 1px;
         text-align: start;
         margin-left: 2rem;
+        margin-right: 1px;
     }
     .content .try-btn{
         width: 80%;
